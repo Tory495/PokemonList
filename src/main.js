@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
 import './style.css'
-import App from './App.vue'
+import Pokemon from "./components/Pokemon.vue"
+import router from "./router.js"
+import "bootstrap/dist/css/bootstrap.css"
 
-createApp(App).mount('#app')
+
+createApp(Pokemon).use(router).mount('#pokemon')
