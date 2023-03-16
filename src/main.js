@@ -6,3 +6,5 @@ import "bootstrap/dist/css/bootstrap.css"
 
 
 createApp(Pokemon).use(router).mount('#pokemon')
+
+import "bootstrap/dist/js/bootstrap.js"

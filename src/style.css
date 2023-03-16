@@ -1,3 +1,12 @@
+.text-warning-link {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.text-warning-link:hover {
+    color: #b38601;
+}
+
 /*:root {*/
 /*  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;*/
 /*  line-height: 1.5;*/
